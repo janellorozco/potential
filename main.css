@@ -1,0 +1,95 @@
+
+body {
+	background-color: white;
+}
+
+header {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	text-align: center;
+	font-size: larger;
+	margin: 40px;
+}
+
+h3 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size:medium;
+	font-weight: bold;
+	color: lightcoral;
+	margin-top: -20px;
+}
+
+ul.topnav {
+    list-style-type: none;
+	display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.topnav li a:hover {background-color: #555;}
+ul.topnav li.icon {display: none;}
+
+ul.topnav li {float: left}
+ul.topnav li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.img-circle {
+	float: left;
+	padding-left: 200px;
+	padding-top: 20px;
+}
+
+h2 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: x-large;
+	text-decoration: underline;
+	padding-right:210px;
+	font-weight: bold;
+	padding-top: 60px;
+	color: black
+}
+
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: medium;
+	padding-right: 230px;
+	padding-left: 550px;
+
+}
+
+ul.info {
+    float: left;
+    display: block;
+	font-size: small;
+    color: black
+    text-align: center;
+    text-decoration: none;
+}
+
+a {color: #000000; }
+
+
+h4 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: x-large;
+	text-decoration: underline;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+}
+
+section {font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size: medium;
+}
+
+img {padding-top: -20px;
+padding-bottom: 20px;
+}
+
