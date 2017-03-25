@@ -13,42 +13,24 @@ header{
 	padding-top: 50px
 }
 
-.button {
-  background-color: transparent;
-  border: transparent;
-  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 40px;
-  padding: 20px;
-  width: 200px;
-  height: 70px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+<style>
+#button {
+    width: 6em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
 }
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background: #eff;
+}
+</style>
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
