@@ -14,9 +14,10 @@ header{
 }
 
 <style>
-#button {
+
+button {
     width: 6em;
-    border: 2px solid green;
+    border: 2px solid black;
     background: #ffe;
     border-radius: 5px;
 }
@@ -32,5 +33,6 @@ a:hover {
     color: red;
     background: #eff;
 }
+
 </style>
 
