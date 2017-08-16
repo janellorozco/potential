@@ -25,7 +25,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
 }
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {background-color: black;}
 ul.topnav li.icon {display: none;}
 
 ul.topnav li {float: left}
